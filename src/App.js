@@ -37,7 +37,7 @@ const App = () => {
           {tasks.map((task) => (
             <tr key={task.id}>
               <td>{task.id}</td>
-              <td>{task.description}</td>
+              <td>{task.sentence}</td>
             </tr>
           ))}
         </tbody>
